@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico">
+</head>
+<body>
+    <div class="container flex">
+        <div class="sidebar"> <!-- left -->
+            <div class="home-box bg-black">
+                <div class="sidebar-top">
+                    <div class="logo">
+                        <img src="./images/Vg_logo.png" alt="Logo">
+                    </div>
+                    <div class="close-sidebar">
+                        <i class="fa-solid fa-rectangle-xmark"></i>
+                    </div>
+                </div>
+                <ul>
+                    <li><img class="invert " src="./images/home.svg" alt="Home">Home</li>
+                    <li><img class="invert " src="./images/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library-box bg-black">
+                <div class="heading">
+                    <div class="library-head">
+                        <img src="./images/playlist.svg" alt="Library">
+                        <span>Library</span>                      
+                    </div>
+                    <div class="add">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="songList">
+                    <ul>
+                        <!-- <li>
+                            <div class="logo_info">
+                                <div class="music-logo">
+                                    <i style="color: white;" class="fa-solid fa-music"></i>
+                                </div>
+                                <div class="info">
+                                    <div>Song Name</div>
+                                    <div>Song Artist</div>
+                                </div>
+                            </div>
+                            <div class="play-option">
+                                <div> Play Now</div>
+                                <div class="play_logo"><i class="fa-solid fa-play"></i></div>
+                                
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div> 
+        <div class="main"> <!-- Right -->
+            <div class="navbar">
+                <div class="options">
+                    <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                    <div class="back-btn"><img src="./images/back-btn.svg" alt="back-btn"></div>
+                    <div class="forward-btn"><img  src="./images/forward-btn.svg" alt="forward-btn"></div>
+                </div>
+                <div class="account">
+                    <div><button class="signup">Sign up</button></div>
+                    <div><button class="login">Log in</button></div>
+                </div>
+            </div>
+            <div class="playlist">
+                <h1 class="playlist-title" style="color: white;">Groove Playlist</h1>
+                <div class="card-container">
+                    
+                </div>
+            </div>
+            
+                <div class="playbar">
+                    
+                    <div class="abovebar">
+                        <div class="song-info">
+                            song-info
+                        </div>
+                        <div class="song-btns">
+                            <img class="invert" id="previous" src="./images/prevsong_new.svg" alt="Prev Song">
+                            <img class="invert" id="play" src="./images/play_new.svg" alt="Play">
+                            <img class="invert" id="next" src="./images/nextsong_new.svg" alt="Next">
+                        </div>
+                        <div class="song-time">
+                            song-time
+                        </div>
+                        <div class="volume">
+                            <!-- <i class="fa-solid fa-volume-high volume_icon"></i> -->
+                             <img class="volume_icon" src="./images/volume_new.svg" alt="Volume">
+                            <div class="range">
+                                <input class="styled-slider" type="range" name="volume" id="range" value="100" >
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="seekbar-container">
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+            
+
+        </div> 
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
