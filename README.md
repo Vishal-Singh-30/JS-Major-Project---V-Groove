@@ -47,5 +47,7 @@ Thank you for checking out my project! Feel free to reach out if you have any qu
 ---
 
 **Author**: Vishal Singh 
+
 **Email**: mailtovishalsingh30@gmail.com  
+
 **GitHub**: [Vishal-Singh-30](https://github.com/Vishal-Singh-30)
