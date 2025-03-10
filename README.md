@@ -4,10 +4,14 @@
 
 Welcome to V Groove! This project is a web-based music player application inspired by Spotify. It offers a seamless and immersive music experience with a modern and responsive user interface. This project showcases my skills in web development and my ability to create a fully functional and visually appealing application.
 
-![PROJECT IMAGE](/V%20Groove%20IMG.png)
+## 🎵 V Groove - Music Player 🎵
 
+### 🎥 Demo Video  
+Click the image below to watch the full demo of V Groove in action! 👇  
 [![Watch the Demo](/V%20Groove%20IMG.png)](https://youtu.be/jVm9acYIELc?si=f0Z5USarMNdsZpHA)
+🔗 *Click the image to open the demo on YouTube!*
 
+---
 
 ## Features
 
